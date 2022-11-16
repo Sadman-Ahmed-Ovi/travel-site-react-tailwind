@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className='w-full bg-gray-100 py-16'>
+        <div className='w-full bg-gray-100 py-16' id="footer">
       <div className='max-w-[1240px] mx-auto flex flex-col px-4'>
         <div className='sm:flex text-center justify-between items-center'>
           <h1>BackPacks</h1>
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className='flex justify-between'>
           <ul className='lg:flex'>
-            <li className='pl-0'>About</li>
+            <li className='md:pl-0'>About</li>
             <li>Partnerships</li>
             <li>Careers</li>
             <li>Newsroom</li>
